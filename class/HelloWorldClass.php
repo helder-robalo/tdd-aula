@@ -1,0 +1,25 @@
+<?php
+/**
+* HelloWorldClass para explicação de TDD
+* @author Bargão Robalo <bargaorobalo@gmail.com>
+*
+*/
+class HelloWorldClass
+{
+	
+	function __construct()
+	{
+		//I'm your father
+	}
+
+	public function show($parametro='')
+	{
+		if(is_null($parametro)){
+			return "Olá mundo.";
+		}else{
+			return "Olá, eu sou o $nome.";
+		}
+	}
+}
+
+?>
